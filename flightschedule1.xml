@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flightschedule>
+  <aircraft>
+    <registrationprefix>OH</registrationprefix>
+    <registrationsuffix>AAA</registrationsuffix>
+    <type>A350-800</type>
+    <capacity>270</capacity>
+    <owner>QOCO Systems</owner>
+  </aircraft>
+  <flights>
+    <flight id="1240">
+      <departure>
+        <airport>LHR</airport>
+        <plannedtime>2020-10-28T16:20:00Z</plannedtime>
+        <actualtime>2020-10-28T16:21:10Z</actualtime>
+      </departure>
+      <arrival>
+        <airport>HEL</airport>
+        <plannedtime>2020-10-28T19:25:00Z</plannedtime>
+        <actualtime>2020-10-28T19:20:56Z</actualtime>
+      </arrival>
+      <flighttime>180</flighttime>
+      <cargo>
+        <dangerous>N</dangerous>
+        <weight>23562</weight>
+      </cargo>
+    </flight>
+    <flight id="1241">
+      <departure>
+        <airport>HEL</airport>
+        <plannedtime>2020-10-28T22:00:00Z</plannedtime>
+        <actualtime>2020-10-28T22:10:30Z</actualtime>
+      </departure>
+      <arrival>
+        <airport>AMS</airport>
+        <plannedtime>2020-10-29T00:40:00Z</plannedtime>
+        <actualtime>2020-10-29T00:45:30Z</actualtime>
+      </arrival>
+      <flighttime>155</flighttime>
+      <cargo>
+        <dangerous>N</dangerous>
+        <weight>21529</weight>
+      </cargo>
+    </flight>
+    <flight id="1242">
+      <departure>
+        <airport>AMS</airport>
+        <plannedtime>2020-10-29T03:35:00Z</plannedtime>
+        <actualtime>2020-10-29T03:30:15Z</actualtime>
+      </departure>
+      <arrival>
+        <airport>HEL</airport>
+        <plannedtime>2020-10-29T06:15:00Z</plannedtime>
+        <actualtime>2020-10-29T06:30:17Z</actualtime>
+      </arrival>
+      <flighttime>180</flighttime>
+      <cargo>
+        <dangerous>Y</dangerous>
+        <weight>10581</weight>
+      </cargo>
+    </flight>
+    <flight id="1243">
+      <departure>
+        <airport>LHR</airport>
+        <plannedtime>2020-10-29T17:40:00Z</plannedtime>
+        <actualtime>2020-10-29T17:40:30Z</actualtime>
+      </departure>
+      <arrival>
+        <airport>HEL</airport>
+        <plannedtime>2020-10-29T20:45:00Z</plannedtime>
+        <actualtime>2020-10-29T20:45:20Z</actualtime>
+      </arrival>
+      <flighttime>185</flighttime>
+      <cargo>
+        <dangerous>N</dangerous>
+        <weight>23562</weight>
+      </cargo>
+    </flight>
+    <flight id="1244">
+      <departure>
+        <airport>HEL</airport>
+        <plannedtime>2020-10-29T23:55:00Z</plannedtime>
+        <actualtime>2020-10-30T00:10:40Z</actualtime>
+      </departure>
+      <arrival>
+        <airport>AMS</airport>
+        <plannedtime>2020-10-30T02:35:00Z</plannedtime>
+        <actualtime>2020-10-30T03:00:45Z</actualtime>
+      </arrival>
+      <flighttime>170</flighttime>
+      <cargo>
+        <dangerous>N</dangerous>
+        <weight>25025</weight>
+      </cargo>
+    </flight>
+    <flight id="1245">
+      <departure>
+        <airport>AMS</airport>
+        <plannedtime>2020-10-30T05:20:00Z</plannedtime>
+        <actualtime>2020-10-30T05:17:50Z</actualtime>
+      </departure>
+      <arrival>
+        <airport>HEL</airport>
+        <plannedtime>2020-10-30T08:00:00Z</plannedtime>
+        <actualtime>2020-10-28T07:55:10Z</actualtime>
+      </arrival>
+      <flighttime>158</flighttime>
+      <cargo>
+        <dangerous>N</dangerous>
+        <weight>21351</weight>
+      </cargo>
+    </flight>
+  </flights>
+</flightschedule>

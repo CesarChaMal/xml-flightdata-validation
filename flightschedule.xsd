@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:simpleType name="dateString">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="20" />
+      <xs:minLength value="20" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="flightschedule">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="aircraft"/>
+        <xs:element ref="flights"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="aircraft">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="registrationprefix"/>
+        <xs:element ref="registrationsuffix"/>
+        <xs:element ref="type"/>
+        <xs:element ref="capacity"/>
+        <xs:element ref="owner"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="registrationprefix" type="xs:NCName"/>
+  <xs:element name="registrationsuffix" type="xs:NCName"/>
+  <xs:element name="type" type="xs:NCName"/>
+  <xs:element name="capacity" type="xs:integer"/>
+  <xs:element name="owner" type="xs:string"/>
+  <xs:element name="flights">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="flight"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="flight">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="departure"/>
+        <xs:element ref="arrival"/>
+        <xs:element ref="flighttime"/>
+        <xs:element ref="cargo"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="departure">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="airport"/>
+        <xs:element ref="plannedtime"/>
+        <xs:element ref="actualtime"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="arrival">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="airport"/>
+        <xs:element ref="plannedtime"/>
+        <xs:element ref="actualtime"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="flighttime" type="xs:integer"/>
+  <xs:element name="cargo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="dangerous"/>
+        <xs:element ref="weight"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dangerous" type="xs:string"/>
+  <xs:element name="weight" type="xs:integer"/>
+  <xs:element name="airport" type="xs:string"/>
+  <xs:element name="plannedtime" type="dateString"/>
+  <xs:element name="actualtime" type="dateString"/>
+</xs:schema>

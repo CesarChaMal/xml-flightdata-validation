@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flightschedule>
+  <aircraft>
+    <registrationprefix>OH</registrationprefix>
+    <registrationsuffix>AAE</registrationsuffix>
+    <type>A350-800</type>
+    <capacity>270</capacity>
+    <owner>QOCO Systems</owner>
+  </aircraft>
+  <flights>
+    <flight id="1326">
+      <departure>
+        <airport>HEL</airport>
+        <plannedtime>2020-10-26T12:10:00Z</plannedtime>
+        <actualtime>2020-10-26T12:18:37Z</actualtime>
+      </departure>
+      <arrival>
+        <airport>LHR</airport>
+        <plannedtime>2020-10-26T15:15:00Z</plannedtime>
+        <actualtime>2020-10-26T15:26:42Z</actualtime>
+      </arrival>
+      <flighttime>188</flighttime>
+      <cargo>
+        <dangerous>Y</dangerous>
+        <weight>14412</weight>
+      </cargo>
+    </flight>
+    <flight id="1327">
+      <departure>
+        <airport>LHR</airport>
+        <plannedtime>2020-10-26T22:10:00Z</plannedtime>
+        <actualtime>2020-10-26T22:05:17Z</actualtime>
+      </departure>
+      <arrival>
+        <airport>HEL</airport>
+        <plannedtime>2020-10-27T01:15:00Z</plannedtime>
+        <actualtime>2020-10-27T01:20:26Z</actualtime>
+      </arrival>
+      <flighttime>195</flighttime>
+      <cargo>
+        <dangerous>N</dangerous>
+        <weight>16962</weight>
+      </cargo>
+    </flight>
+    <flight id="1328">
+      <departure>
+        <airport>AMS</airport>
+        <plannedtime>2020-10-27T10:50:00Z</plannedtime>
+        <actualtime>2020-10-27T11:20:16Z</actualtime>
+      </departure>
+      <arrival>
+        <airport>HEL</airport>
+        <plannedtime>2020-10-27T13:30:00Z</plannedtime>
+        <actualtime>2020-10-27T13:45:04Z</actualtime>
+      </arrival>
+      <flighttime>145</flighttime>
+      <cargo>
+        <dangerous>N</dangerous>
+        <weight>25568</weight>
+      </cargo>
+    </flight>
+    <flight id="1329">
+      <departure>
+        <airport>HEL</airport>
+        <plannedtime>2020-10-27T16:30:00Z</plannedtime>
+        <actualtime>2020-10-27T16:25:15Z</actualtime>
+      </departure>
+      <arrival>
+        <airport>LHR</airport>
+        <plannedtime>2020-10-27T19:35:00Z</plannedtime>
+        <actualtime>2020-10-27T19:45:16Z</actualtime>
+      </arrival>
+      <flighttime>200</flighttime>
+      <cargo>
+        <dangerous>Y</dangerous>
+        <weight>3562</weight>
+      </cargo>
+    </flight>
+  </flights>
+</flightschedule>
